@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel - Nexto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="admin-body">
+
+<!-- HEADER -->
+<header class="admin-header">
+    <div class="logo">Nexto</div>
+    <h2>Admin Panel</h2>
+</header>
+
+<section class="admin-container">
+
+    <!-- LEFT SIDE -->
+    <div class="admin-left">
+
+        <!-- CURRENT INFO -->
+        <div class="card">
+            <h3>INFORMATIONS ACTUELLES</h3>
+
+            <div class="info-boxes">
+                <div class="box">
+                    <p>NUMÉRO ACTUEL</p>
+                    <h1>A042</h1>
+                </div>
+
+                <div class="box">
+                    <p>GUICHET</p>
+                    <h1>03</h1>
+                </div>
+            </div>
+
+            <h3>ACTIONS</h3>
+
+            <button class="btn dark">➜ APPELER SUIVANT</button>
+            <button class="btn">✖ ANNULER TICKET</button>
+            <button class="btn">⟳ RÉINITIALISER</button>
+        </div>
+
+        <!-- HISTORY -->
+        <div class="card">
+            <h3>HISTORIQUE - TICKETS TERMINÉS</h3>
+
+            <table>
+                <tr>
+                    <th>NUMÉRO</th>
+                    <th>HEURE</th>
+                    <th>GUICHET</th>
+                    <th>STATUT</th>
+                </tr>
+
+                <tr><td>A041</td><td>14:32</td><td>03</td><td>Terminé</td></tr>
+                <tr><td>A040</td><td>14:28</td><td>02</td><td>Terminé</td></tr>
+                <tr><td>A039</td><td>14:25</td><td>01</td><td>Terminé</td></tr>
+                <tr><td>A038</td><td>14:20</td><td>03</td><td>Terminé</td></tr>
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="admin-right">
+
+        <div class="card">
+            <h3>FILE D’ATTENTE</h3>
+            <p class="count">Tickets en attente : <strong>8</strong></p>
+
+            <div class="queue-list">
+
+                <div class="queue-item">
+                    <span>A043</span>
+                    <small>Temps d’attente : 12 min</small>
+                </div>
+
+                <div class="queue-item">
+                    <span>A044</span>
+                    <small>Temps d’attente : 18 min</small>
+                </div>
+
+                <div class="queue-item">
+                    <span>A045</span>
+                    <small>Temps d’attente : 24 min</small>
+                </div>
+
+                <div class="queue-item">
+                    <span>A046</span>
+                    <small>Temps d’attente : 30 min</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>

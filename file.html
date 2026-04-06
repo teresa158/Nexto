@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>File d’attente - Nexto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="queue-body">
+
+<!-- HEADER -->
+<header class="header-clean">
+    <nav class="navbar">
+                <div class="logo"><a href="##">Nexto</a></div>
+                <ul class="links">
+                    <li><a href="##">Home</a></li>
+                    <li><a href="##">About</a></li>
+                    <li><a href="##">Services</a></li>
+                    <li><a href="##">Contacts</a></li>
+                </ul>
+            </nav>
+</header>
+
+<section class="queue-container">
+
+    <h1>File d’attente</h1>
+
+    <!-- TABLE -->
+    <div class="queue-table">
+
+        <div class="queue-row header">
+            <span>Numéro</span>
+            <span>Service</span>
+            <span>Statut</span>
+        </div>
+
+        <div class="queue-row">
+            <span class="num">B12</span>
+            <span>Permis de conduire</span>
+            <span class="status current">En cours</span>
+        </div>
+
+        <div class="queue-row">
+            <span class="num">B13</span>
+            <span>Carte d’identité</span>
+            <span class="status waiting">En attente</span>
+        </div>
+
+        <div class="queue-row">
+            <span class="num">B14</span>
+            <span>Impôts / Taxes</span>
+            <span class="status waiting">En attente</span>
+        </div>
+
+    </div>
+
+    <!-- TEMPS -->
+    <div class="wait-time">
+        ⏳ Temps estimé : <strong>15 minutes</strong>
+    </div>
+
+    <!-- BUTTON -->
+    <button class="refresh-btn" onclick="location.reload()">
+        Actualiser
+    </button>
+
+</section>
+
+</body>
+</html>
